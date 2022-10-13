@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(95, 127, 168);
+    background: rgb(178, 152, 207);
     color: #fff;
     text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
+  
 }
 img{
     width: 200;
@@ -28,6 +28,6 @@ a{
     border: 2px solid #fff;
 }
 a:hover{
-    box-shadow: 0 0 20px #fff;
+    box-shadow: 0 0 20px rgb(193, 40, 231);
     transform: scale(1.1);
 }

@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(158,255,243);
+    background: linear-gradient(90deg, rgba(158,255,243,1) 19%, rgba(99,219,231,1) 78%);
+}
+header{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    counter-reset: #fff;
+    font-size: 20px;
+}
+img{
+    display: block;
+    width: 130px;
+    height: 160px;
+    margin: auto;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+}
+section{
+    width: 400px;
+    height: 550px;
+    background: #adecee;
+    margin: auto;
+    border-radius: 30px;
+    padding: 30px;
+    position: relative;
+    top: -50px;
+    box-shadow: 0 0 20px black;
+}
+input{
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    margin-bottom: 2px;
+    border: 3px #000000;
+    border-radius: 10px;
+}
+input:focus{
+    box-shadow: 0 5 20px rgb(141, 255, 246);
+}
+input::placeholder{
+    padding-left: 15px;
+    font-size: 13px;
+    opacity: 0.5;
+}
+button{
+    width: 98px;
+    height: 30;
+    display: block;
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #fff;
+
+}
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px rgb(39, 173, 226);
+}
+.claro{
+    color: rgb(71, 124, 194);
+    opacity: 0.5;
+}
+.mover{
+    margin-top: 30px;
+}
+.btn-login{
+    background: rgb(162, 194, 241);
+}
+.btn-face{
+    background: lightblue;
+}
+.btn-git{
+    background: rgb(0, 0, 0);
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(129,126,212);
+    background: linear-gradient(90deg, rgba(129,126,212,1) 26%, rgba(99,99,208,1) 63%, rgba(129,128,209,1) 91%);
+    text-align: center;
+}
+.caja{
+    width: 300px;
+    height: 300px;
+    background: rgb(94, 151, 216);
+    
+    box-shadow: 0 0 20px black;
+    margin: 50px auto;
+    position: relative;
+   
+}

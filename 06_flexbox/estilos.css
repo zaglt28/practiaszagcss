@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(230, 122, 221);
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    height: 400px;
+    background: rgb(230, 106, 219);
+    margin: 8px auto;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.caja{
+    width: 50px;
+    height: 50px;
+    background: rgb(196, 162, 190);
+    border: 2px solid black;
+    margin: 8px;
+}
+
+.e1{
+    display: flex;
+    flex-direction: column;
+}
+
+.e2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.e3{
+    display: flex;
+    flex-direction: row;
+}
+
+.e4{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.e5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.e6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.e7{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.e8{
+    display: flex;
+    flex-flow: column wrap;
+   
+}
+
+.e9{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.e10{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start; 
+}
+
+.e11{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end; 
+}
+
+.e12{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; 
+}
+
+.e13{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; 
+}
+
+.e14{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.e15{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start; 
+}
+
+.e16{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end; 
+}
+
+.e17{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch; 
+}
+
+.e18{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline; 
+}
+.caja2{
+    width: 50px;
+    background: rgb(230, 136, 164);
+    border: 1px solid black;
+    margin: 7px;
+}
+
+
+

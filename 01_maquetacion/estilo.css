@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(144, 162, 201);
+    background: rgb(91, 120, 129);
     width: 80%;
     margin: auto;
     border: 2px solid black;
@@ -12,14 +12,14 @@ body{
 header{ 
     width: 100%;
     height: 80px;
-    background: rgb(72, 106, 150);
+    background: rgb(119, 147, 223);
     text-align: center;
 }
 nav{
     width: 100%;
     height: 30px;
     padding: 7px;
-    background: rgb(82, 111, 165);
+    background: rgb(136, 137, 214);
     text-align: center;
 
 }
@@ -34,7 +34,7 @@ section{
     width: 78%;
     height: 600px;
     padding: 10px;
-    background: rgb(127, 178, 255);
+    background: rgb(157, 201, 252);
     text-align: center;
     float: left;
 }
@@ -42,7 +42,7 @@ aside{
     width: 22%;
     height: 600px;
     padding: 10px;
-    background: rgb(85, 131, 190);
+    background: rgba(176, 139, 235, 0.678);
     text-align: center;
     float: left;
 }
@@ -50,7 +50,7 @@ footer{
     width: 100%;
     height: 50px;
     padding: 10px;
-    background: rgb(103, 113, 168);
+    background: rgb(229, 198, 233);
     text-align: center;
     clear:both;
 }
@@ -58,12 +58,12 @@ a{
     text-decoration: none;
     width: 100px;
     height: auto;
-    color: rgb(9, 51, 65);
-    background: rgb(102, 121, 156);
+    color: white;
+    background: black;
     padding: 5px;
 }
 a:hover{
-    box-shadow: 0 0 20px rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(121, 113, 190);
     transform: scale(1-.1);
 }
 article{
@@ -71,7 +71,7 @@ article{
     height: auto;
     padding: 10px;
     margin-top: 20px;
-    background: rgb(108, 125, 173);
+    background: rgb(151, 191, 243);
     text-align: center;
     clear:both;
 }
