@@ -10,6 +10,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: baa 15s ease 0s;
+    animation-iteration-count: infinite;
+    align-items: center;
+    justify-content: center;
 }
 .divFrase{
     display: block;
@@ -35,4 +39,48 @@ h1,p{
     background: plum;
     color: white;
     border-radius: 10px;
+}
+@keyframes baa{
+    0%{
+        background: url(img/img1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+    }
+    20%{
+        background: url(img/img2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+    }
+    30%{
+        background: url(img/img3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+    }
+    40%{
+        background: url(img/img4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+    }
+    50%{
+        background: url(img/img5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+    }
+    60%{
+        background: url(img/img6.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+    }
 }
